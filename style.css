@@ -1,3 +1,8 @@
+:root {
+    --color-primary: #CD4B0E;
+    
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -133,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +155,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -281,10 +286,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-#bloc-1-hero h1 {
-    font-size: 32px;
 }
 
 .navbar {
@@ -676,9 +677,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -753,7 +752,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +770,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: var(--color-primary);
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: var(--color-primary)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: var(--color-primary);
     color: #FFFFFF!important;
 }
 
@@ -797,7 +796,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: var(--color-primary)!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1040,3 +1039,24 @@ h4 {
         text-align: center;
     }
 }
+
+
+/**** CSS Perso ****/
+
+.citations {
+    font-size: 2rem;
+}
+
+.small-color {
+    color: black!important;
+}
+
+.title-weigth {
+    font-weight: bold;
+
+}
+/* 
+.bg-light-white {
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+} */
