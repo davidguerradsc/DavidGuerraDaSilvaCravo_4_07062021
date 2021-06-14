@@ -1,6 +1,5 @@
 :root {
     --color-primary: #CD4B0E;
-    
 }
 
 body {
@@ -29,7 +28,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF;
 }
 
 .bloc {
@@ -83,21 +82,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -458,7 +442,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .5);
 }
 
 button {
@@ -539,7 +523,6 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -650,7 +633,6 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
@@ -660,7 +642,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 4rem;
 }
 
 .hero-bloc-text-sub {
@@ -686,7 +668,6 @@ a {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -704,7 +685,7 @@ a {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2.5rem;
     line-height: 1.4em;
 }
 
@@ -752,7 +733,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -806,10 +787,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
@@ -1055,8 +1032,11 @@ h4 {
     font-weight: bold;
 
 }
-/* 
-.bg-light-white {
-    width: 100%;
-    background-color: rgba(255,255,255,0.3);
-} */
+
+.font-size17 {
+    font-size: 1.7rem;
+}
+
+.fa-chevron-up {
+    color: white;
+}

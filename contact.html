@@ -2,21 +2,31 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="google-site-verification" content="bLx4OJqvunHxf1ORFff0WQcMRNZcxLmbs1rFaQdk7Qk" />
-        <meta name="description" content="" />
-        <meta name="viewport"
-            content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+        <meta
+            name="google-site-verification"
+            content="bLx4OJqvunHxf1ORFff0WQcMRNZcxLmbs1rFaQdk7Qk"
+        />
+        <meta name="description" content="La Chouette Agence. Agence de Web design et de création de site internet." />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
 
         <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="./css/et-line.css" /> -->
 
-        <script src="./js/blocs.js"></script>
-        <script src="./js/jqBootstrapValidation.js"></script>
-        <script src="./js/formHandler.js"></script>
         
+
+        <!-- Script Javascript -->
+        <script src="./js/jquery-2.1.0.js" defer></script>
+        <script src="./js/bootstrap.js" defer></script>
+        <script src="./js/blocs.js" defer></script>
+        <script src="./js/jqBootstrapValidation.js" defer></script>
+        <script src="./js/formHandler.js" defer></script>
+
         <title>Contact - la Chouette Agence - Agence Web basée à lyon</title>
 
         <!-- Analytics -->
@@ -63,7 +73,7 @@
                                 </li>
                                 <li></li>
                                 <li>
-                                    <a href="page2.html">page2 &gt;</a>
+                                    <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -76,25 +86,30 @@
             <div
                 class="
                     bloc
-                    bg-dots-bg bg-repeat
+                    bg-repeat
                     bgc-atomic-tangerine
                     d-bloc
-                    bloc-bg-texture
-                    texture-paper
                 "
                 id="bloc-6"
             >
                 <div class="container bloc-lg">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h1 class="text-center hero-bloc-text tc-white">
+                            <h1
+                                class="
+                                    text-center
+                                    hero-bloc-text
+                                    white
+                                    title-weigth
+                                "
+                            >
                                 Parlons web design !
                             </h1>
                             <p
                                 class="
                                     text-center
                                     mg-lg
-                                    tc-white
+                                    white
                                     tight-width-whitespace
                                 "
                             >
@@ -116,6 +131,7 @@
                         <div class="col-sm-6">
                             <form
                                 id="form_1"
+                                method=""
                                 novalidate
                                 success-msg="Your message has been sent."
                                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
@@ -142,10 +158,10 @@
                                         Comment nous avez-vous connu ?
                                     </label>
                                     <input
+                                        id="input_504"
                                         class="form-control"
                                         type="email"
                                         required
-                                        id="input_504"
                                     />
                                 </div>
                                 <div class="form-group">
@@ -160,17 +176,24 @@
                                         required
                                     ></textarea>
                                 </div>
-                                <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-                                    type="submit">
+                                <button
+                                    class="
+                                        bloc-button
+                                        btn btn-lg btn-block
+                                        cta-hero
+                                        btn-atomic-tangerine
+                                    "
+                                    type="submit"
+                                >
                                     Envoyer
                                 </button>
                             </form>
                         </div>
                         <div class="col-sm-6">
                             <p>
-                                contact@lachouetteagence.com<br />2 place
-                                Sathonay 69001 Lyon<br />Ouvert de 9h à 18h, du
-                                lundi au vendredi<br />
+                                contact@lachouetteagence.com<br />
+                                2 place Sathonay 69001 Lyon<br />
+                                Ouvert de 9h à 18h, du lundi au vendredi<br />
                             </p>
                         </div>
                     </div>
@@ -179,27 +202,29 @@
             <!-- bloc-7 END -->
 
             <!-- ScrollToTop Button -->
-            <a class="bloc-button btn btn-d scrollToTop"
-                onclick="scrollToTarget('1')">
-				<span class="fa fa-chevron-up"></span>
-			</a>
+            <a
+                class="bloc-button btn btn-d scrollToTop"
+                onclick="scrollToTarget('1')"
+            >
+                <i class="fa fa-chevron-up"></i>
+            </a>
             <!-- ScrollToTop Button END-->
 
             <!-- Footer - bloc-8 -->
-            <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+            <div class="bloc bloc-lg bgc-atomic-tangerine d-bloc" id="bloc-8">
                 <div class="container bloc-sm">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="text-center white">
+                            <h2 class="text-center white title-weigth">
                                 La chouette agence - Agence web basée à Lyon.<br />
-                            </p>
+                            </h2>
                             <div class="row row-no-gutters social">
                                 <div class="col-sm-3">
                                     <div class="text-center">
                                         <a class="social" href="index.html"
-                                            ><span
+                                            ><i
                                                 class="fa fa-twitter icon-md"
-                                            ></span
+                                            ></i
                                         ></a>
                                     </div>
                                 </div>
@@ -238,8 +263,7 @@
             <!-- Footer - bloc-8 END -->
         </div>
         <!-- Principal conteneur END -->
-        <script src="./js/jquery-2.1.0.js"></script>
-        <script src="./js/bootstrap.js"></script>
+
         
     </body>
 </html>
