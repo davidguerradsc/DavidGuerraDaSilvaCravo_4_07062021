@@ -17,18 +17,18 @@
 
         <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-        <link rel="canonical" href="https://davidguerradsc.github.io/DavidGuerraDaSilvaCravo_4_07062021/index.html">
-        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-        <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+        <!-- <link rel="canonical" href="https://davidguerradsc.github.io/DavidGuerraDaSilvaCravo_4_07062021/index.html"> -->
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
 
         <!-- Script Javascript -->
         <script src="./js/jquery-2.1.0.js" defer></script>
-        <script src="./js/bootstrap.js" defer></script>
+        <script src="./js/bootstrap.min.js" defer></script>
         <script src="./js/blocs.js" defer></script>
-        <script src="./js/jquery.touchSwipe.js" defer></script>
-        <script src="./js/gmaps.js" defer></script>
+        <script src="./js/jquery.touchSwipe.min.js" defer></script>
+        <!-- <script src="./js/gmaps.min.js" defer></script> -->
 
         <title>Home - la Chouette Agence - Agence Web basée à lyon</title>
 
@@ -46,8 +46,17 @@
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.html">
                                 <img
-                                    src="img/la-chouette-agence.png"
+                                    srcset="
+                                        img/la-chouette-agence.jpg     214w,
+                                        img/la-chouette-agence_428.jpg 428w
+                                    "
+                                    sizes="(max-width: 767px) 428px,
+                                            214px"
+                                    src="img/la-chouette-agence.jpg"
                                     alt="paris web design logo agence web meilleure agence"
+                                    width="214"
+                                    height="40"
+                                    
                                 />
                             </a>
 
@@ -92,9 +101,10 @@
                     <div class="row tight-width-whitespace">
                         <div class="col-sm-12">
                             <img
-                                src="img/logo.png"
+                                src="img/logo2.png"
                                 class="center-block"
-                                width="100"
+                                width="150"
+                                height="150"
                                 alt="La chouette agence, agence web Lyon, création logo Lyon"
                             />
                             <h1
@@ -120,8 +130,8 @@
                         <div class="col-sm-8 col-sm-offset-2 text-center">
                             <h2>
                                 La chouette agence est une agence de web design
-                                qui aide les entreprises à devenir attractives
-                                et visibles sur Internet.
+                                situé à Lyon qui aide les entreprises à devenir
+                                attractives et visibles sur Internet.
                             </h2>
                         </div>
                     </div>
@@ -217,7 +227,7 @@
             <div class="bloc bg-presentation b-parallax" id="bloc-3-what-i-do">
                 <div class="container bloc-lg">
                     <div class="row tight-width-whitespace black-background">
-                        <div class="col-sm-12">
+                        <div class="col-12">
                             <h2 class="mg-md text-center white">
                                 Nous souhaitons aider les entreprises de la
                                 région Lyonnaise à se développer et à connaître
@@ -254,8 +264,8 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="row tight-width-whitespace portfolio-row">
-                        <div class="col-sm-6">
+                    <div class="row tight-width-whitespace">
+                        <div class="col-sm-6 portfolio-row">
                             <a
                                 href="#"
                                 data-lightbox="img/1.jpg"
@@ -267,6 +277,8 @@
                                     alt="Image de revues et de livres ouvert et empilé les uns sur les autres"
                                     title="refonte d'un site web pour un journal"
                                     class="img-responsive portfolio-thumb"
+                                    width="270"
+                                    height="270"
                             /></a>
                             <h3 class="mg-md text-center">
                                 Refonte d'un site web pour un journal local
@@ -276,7 +288,7 @@
                                 pour un journal lyonnais.
                             </p>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 portfolio-row">
                             <a
                                 href="#"
                                 data-lightbox="img/2.jpg"
@@ -286,7 +298,9 @@
                                 ><img
                                     src="img/2.jpg"
                                     class="img-responsive portfolio-thumb"
-                                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"
+                                    alt="Photo de profils, d'une photographe prenant une photo avec un appareil photo reflex posé sur un trépied."
+                                    width="270"
+                                    height="270"
                             /></a>
                             <h3 class="mg-md text-center">
                                 Création d'un site web pour photographes
@@ -296,19 +310,20 @@
                                 laisser place aux clichés des photographes.
                             </p>
                         </div>
-                    </div>
-                    <div class="row tight-width-whitespace portfolio-row">
-                        <div class="col-sm-6">
+
+                        <div class="col-sm-6 portfolio-row">
                             <a
                                 href="#"
-                                data-lightbox="img/3.bmp"
+                                data-lightbox="img/3.jpg"
                                 data-gallery-id="gallery-1"
                                 data-caption="Création d'un site internet pour un voyageur"
                                 data-frame="snapshot-lb"
                                 ><img
-                                    src="img/3.bmp"
+                                    src="img/3.jpg"
                                     class="img-responsive portfolio-thumb"
-                                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"
+                                    alt="Lot de matériel de photograph posé et aligné. Le lot comprend un pc portable, un drone, une caméra sportive, un appareil photo, ainsi que divers accessoires comme des batteries, des sangles, une manette pour le drone, etc."
+                                    width="270"
+                                    height="270"
                             /></a>
                             <h3 class="mg-md text-center">
                                 Création d'un site internet pour un voyageur
@@ -319,17 +334,19 @@
                                 articles de ce voyageur.
                             </p>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 portfolio-row">
                             <a
                                 href="#"
-                                data-lightbox="img/4.bmp"
+                                data-lightbox="img/4.jpg"
                                 data-gallery-id="gallery-1"
                                 data-caption="Conception d'un site pour une agence de mariage"
                                 data-frame="snapshot-lb"
                                 ><img
-                                    src="img/4.bmp"
+                                    src="img/4.jpg"
                                     class="img-responsive portfolio-thumb"
-                                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage"
+                                    alt="Photo d'une table prise du dessus avec une personne travaillant sur un ordinateur portable, en face une personne travaillant sur une tablette et sur la table se trouve posé aléatoirement une tasse de thé, un paquet cadeau, plusieurs rubants, un rouleau de scotch, des ciseaux, du papier, une envoloppe craft."
+                                    width="270"
+                                    height="270"
                             /></a>
                             <h3 class="mg-md text-center">
                                 Conception d'un site pour une agence de mariage
@@ -377,50 +394,70 @@
                 <i class="fa fa-chevron-up"></i>
             </a>
             <!-- ScrollToTop Button END-->
-            
+
             <!-- Footer - bloc-8 -->
-            <div class="bloc bloc-lg bgc-atomic-tangerine d-bloc" id="bloc-8">
-                <div class="container bloc-sm">
+            <div class="bloc bloc-md bgc-atomic-tangerine d-bloc" id="bloc-8">
+                <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 class="text-center white title-weigth">
                                 La chouette agence - Agence web basée à Lyon.<br />
                             </h2>
                             <div class="row row-no-gutters social">
-                                <div class="col-sm-3">
+                                <div class="col-sm-3 col-xs-6 social-link">
                                     <div class="text-center">
-                                        <a class="social" href="index.html"
-                                            ><i
-                                                class="fa fa-twitter icon-md"
-                                            ></i
-                                        ></a>
+                                        <a class="social" href="index.html">
+                                            <span
+                                                class="
+                                                    fa fa-twitter
+                                                    icon-md
+                                                    col-xs-12
+                                                "
+                                            ></span>
+                                            Twitter
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-3 col-xs-6 social-link">
                                     <div class="text-center">
                                         <a class="social" href="index.html"
                                             ><span
-                                                class="fa fa-facebook icon-md"
+                                                class="
+                                                    fa fa-facebook
+                                                    icon-md
+                                                    col-xs-12
+                                                "
                                             ></span
-                                        ></a>
+                                            >Facebook</a
+                                        >
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-3 col-xs-6 social-link">
                                     <div class="text-center">
                                         <a class="social" href="index.html"
                                             ><span
-                                                class="fa fa-dribbble icon-md"
+                                                class="
+                                                    fa fa-dribbble
+                                                    icon-md
+                                                    col-xs-12
+                                                "
                                             ></span
-                                        ></a>
+                                            >Dribble</a
+                                        >
                                     </div>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-sm-3 col-xs-6 social-link">
                                     <div class="text-center">
                                         <a class="social" href="index.html"
                                             ><span
-                                                class="fa fa-instagram icon-md"
+                                                class="
+                                                    fa fa-instagram
+                                                    icon-md
+                                                    col-xs-12
+                                                "
                                             ></span
-                                        ></a>
+                                            >Instagram</a
+                                        >
                                     </div>
                                 </div>
                             </div>
@@ -431,8 +468,5 @@
             <!-- Footer - bloc-8 END -->
         </div>
         <!-- Principal conteneur END -->
-
-        
-       
     </body>
 </html>
