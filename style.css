@@ -755,7 +755,7 @@ h4 {
 
 .black-background {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 40px px;
+    padding: 40px 40px;
 }
 
 .bold-link {
