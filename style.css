@@ -21,6 +21,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: rgba(255, 255, 255, .6);
 }
 
 #page-loading-blocs-notifaction {
@@ -254,7 +255,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #CD4B0E;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -702,7 +703,13 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    color: white;
+    font-size: 2.3rem;
+}
+
+.social:hover {
+    color: rgba(255, 255, 255, .6);
 }
 
 h2 {
